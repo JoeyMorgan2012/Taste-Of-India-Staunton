@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>@Page.Title</title>
+	<link href="~/Content/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+	<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+
+	<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+	<script src="~/Scripts/jquery-ui-1.10.3.js"></script>
+	<script src="~/Scripts/modernizr-2.6.2.js"></script>
+	<script src="~/Scripts/bootstrap.js"></script>
+	<link href="~/Content/bootstrap.css" rel="stylesheet" />
+	<link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+	<link href="~/Content/TasteOfIndia.css" rel="stylesheet" />
+	<meta name="viewport" content="width=device-width" />
+</head>
+<body class="container-fluid">
+	<div class="container-fluid content-wrapper">
+		<header>
+
+			<div class="nav nabar-fixed-top">
+
+				<p class="site-title">Taste of India - Staunton</p>
+				<ul class="nav nav-tabs navbar-collapse">
+					<li><a class="navWhite" data-toggle="pill" href="#Home">Home</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Appetizers">Appetizers</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Soups">Soups</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Tandoori">Tandoori Dishes</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Thali">Thali Dishes</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Chicken">Chicken Dishes</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Lamb">Lamb Dishes</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Seafood">Seafood Dishes</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Biryani">Biryanis & Rice Dishes</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Vegetarian">Vegetarian Dishes</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#ChefSpecials">Chef's Specials</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Breads">Indian Breads</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#SideOrders">Side Orders</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Desserts">Desserts</a></li>
+					<li><a class="navWhite" data-toggle="pill" href="#Beverages">Beverages</a></li>
+				</ul>
+			</div>
+
+		</header>
+
+	</div>
+	<div id="body">
+		@RenderSection("featured", required: false)
+		<section class="content-wrapper main-content clear-fix">
+			@RenderBody()
+		</section>
+	</div>
+	<footer class="tasteOfIndiaFooter">
+
+
+		<a href="~/"><img src="~/Images/PicOfMenu.png" alt="Menu Cover Logo" class="boxed" /></a>
+		<p>105 West Beverly Street, Staunton, VA 24401 • Phone: (540) 213-8882</p>
+		Hours:
+		<table id="hoursTable">
+			<tr><td colspan="2"><h3>Hours</h3></td></tr>
+
+			<tr>
+				<td class="weekday">Monday-Thursday</td>
+				<td class="text-center">11AM–2:30PM, 5–9PM</td>
+			</tr>
+			<tr>
+				<td class="weekday">Friday-Sunday</td>
+				<td class="text-center">11AM–2:30PM, 5–9:30PM</td>
+			</tr>
+
+
+		</table>
+
+
+
+
+		<div class="float-left">
+			<p>&copy; @DateTime.Now.Year - Taste of India Staunton • Web Site by <a href="http://www.solsticeinsights.com" target="_blank">Solstice Insights, LLC</a></p>
+		</div>
+
+	</footer>
+	@RenderSection("Scripts", required: false)
+</body>
+</html>

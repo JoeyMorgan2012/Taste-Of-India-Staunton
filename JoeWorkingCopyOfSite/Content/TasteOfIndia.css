@@ -1,0 +1,111 @@
+﻿
+body
+{
+	background-color: rgb(117,46,44);
+    
+}
+
+.centeredText {
+    text-align: center;
+}
+.container
+{
+	padding: 20px;
+	margin: 30px 10px auto 20px;
+
+    
+}
+
+.section
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.subsect
+{
+	font-size: 1em;
+	text-align: center;
+}
+
+.price
+{
+	float: right;
+	margin-right: 15px;
+}
+
+ul.no-bullets li
+{
+	list-style-type: none;
+}
+
+ul.no-bullets
+{
+	list-style-type: none;
+}
+
+.food
+{
+	font-weight: bold;
+}
+
+.boxed
+{
+	padding: 4px;
+	margin: 2px;
+	border-bottom: thick solid black;
+	border-right: thick solid black;
+	border-top: thin solid lightgray;
+	border-left: thin solid lightgray;
+}
+
+.navbar-fixed-top
+{
+	margin-left: 10px 20px 10px 50px;
+	padding: 2px;
+	color:white;
+}
+
+.weekday
+{
+	margin: 1em;
+	font-size: 1.1em;
+	font-weight: 600;
+	padding: 1em;
+	text-align: right;
+}
+
+content-wrapper.main-content
+{
+	max-width: 960px;
+	margin: 10px;
+}
+
+#naanPic
+{
+	image-resolution: from-image;
+	left: -150px;
+}
+
+.navWhite
+{
+	color: white;
+}
+
+
+.tasteOfIndiaFooter
+{
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.rcorners1 {
+    border-radius: 25px;
+   
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
