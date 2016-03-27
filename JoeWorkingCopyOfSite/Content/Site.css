@@ -6,7 +6,7 @@
 
 body {
     background-color: #fff;
-    border-top: solid 10px #c55c5c;
+    border-top: solid 10px #C83D2A;
     color: #333;
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
@@ -129,8 +129,8 @@ footer {
 /* site title
 ----------------------------------------------------------*/
 .site-title {
-    color: rgb(180, 89, 55);
-	background-color: rgb(117,46,44);
+    color:  #DAB563;
+	background-color: #C83D2A;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2.3em;
     margin: 0;
@@ -203,7 +203,7 @@ ul#menu {
         }
 
         ul#menu li a:hover {
-            color: #333;
+            color:#DAB563;
             text-decoration: none;
         }
 
@@ -606,6 +606,8 @@ tr.pager td {
     header .site-title {
         margin: 10px;
         text-align: center;
+				background-color:#C83D2A;
+color:#DAB563;
     }
 
     /* login */
@@ -661,11 +663,13 @@ tr.pager td {
     .main-content,
     .featured + .main-content {
         background-position: 10px 0;
+		color:black;
     }
 
     .content-wrapper {
         padding-right: 10px;
         padding-left: 10px;
+
     }
 
     .featured .content-wrapper {
@@ -745,12 +749,17 @@ tr.pager td {
     footer .float-left,
     footer .float-right {
         float: none;
+		background-color:#C83D2A;
+		
     }
 
     footer {
         text-align: center;
         height: auto;
         padding: 10px 0;
+		background-color:#C83D2A;
+color:#DAB563;
+font-size:1em;
     }
 
         footer p {
