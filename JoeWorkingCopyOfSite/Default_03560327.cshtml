@@ -6,12 +6,13 @@
 <div class="tab-content">
 	<div id="Home" class="tab-pane fade in active">
 
-		<h2 class="centeredText">Welcome to <img src="~/Images/storeFrontSignElliptical.png" alt="Taste of India sign" /> </h2>
+		<h2>Welcome to A Taste of India</h2>
 		<p>Come taste authentic Indian cuisine in the heart of Staunton, Virginia.</p><p>A Taste of India is owned by a family of chefs who take great joy in bringing the subtle spices and delicious variety of their homeland to the Shenandoah Valley.</p><p>Come in for a warm welcome and a meal fit for a Raj!</p>
-		<h3 class="centeredText">Location and Hours</h3>
+		<h3>Location and Hours</h3>
 		<h4>
 
 			Location
+
 		</h4>
 
 		<div id="Location">
@@ -22,19 +23,22 @@
 	</div>
 
 	<div id="Appetizers" class="tab-pane fade">
-		<img src="~/Images/appetizerSmall.png" alt="plate of appetizers" class="col-xs-4 rcorners1" />
-		<div class="panel-group col-xs-6" id="AppetizerAccordian">
-			<div class="panel panel-default" id="HotAppetizersVegDiv">
+
+		<img src="~/Images/appetizerSmall.png" />
+	   
+		<div class="panel-group" id="Appetizers">
+		
+				<div class="panel panel-default">
 				<div class="panel-heading">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#AppetizerGroups" href="#Appetizers-one">
+						<a data-toggle="collapse" data-parent="#Appetizers" href="#Appetizers-one">
 							Hot Appetizers (Vegetarian)
 						</a>
 					</h4>
 				</div>
 				<div id="Appetizers-one" class="panel-collapse collapse ">
 					<div class="panel-body">
-
+						
 						<div id="HotAppetizersVegetarian">
 							<div>
 								<dl class="no-bullets">
@@ -50,10 +54,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="panel panel-default" id="HotAppetizerNVDiv">
+			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#AppetizerGroups" href="#Appetizers-two">
+						<a data-toggle="collapse" data-parent="#Appetizers" href="#Appetizers-two">
 							Hot Appetizers (Non-Vegetarian)
 						</a>
 					</h4>
@@ -81,10 +85,10 @@
 					</div>
 				</div>
 			</div>
-			<div id="ColdAppetizerDiv" class="panel panel-default">
+			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#AppetizerGroups" href="#Appetizers-three">
+						<a data-toggle="collapse" data-parent="#Appetizers" href="#Appetizers-three">
 							Cold Appetizers
 						</a>
 					</h4>
@@ -107,25 +111,27 @@
 				</div>
 			</div>
 		</div>
+
 	</div>
+
+
+
 	<div id="Soups" class="tab-pane fade">
-		<img src="~/Images/placeSetting.JPG" alt="typical place setting" class="col-xs-4 rcorners1" />
+		<img src="images/LentilSoupSmall.jpg" />
 		<p class="section">Soups</p>
-		<div class="col-xs-1"></div>
-		<dl class="no-bullets col-xs-6">
+		<dl class="no-bullets">
 			<dt>Lentil Soup <span class="price">$3.95</span></dt>
 			<dt> Mixed Vegetable Soup  <span class="price">$3.95</span></dt>
 			<dt> Tomato Soup  <span class="price">$3.95</span></dt>
 			<dt> Chicken Soup  <span class="price">$3.95</span></dt>
 		</dl>
-		<div class="col-xs-1"></div>
 	</div>
 
-	<div id="Tandoori" class="tab-pane fade">
-		<img src="~/Images/tandoori.png" class="col-xs-4 rcorners1" />
 
-		<div class="col-xs-6">
-			<p class="section">Kebab (Tandoori) Dishes</p>
+	<div id="Tandoori" class="tab-pane fade">
+		<h3>Tandoori Dishes</h3>
+		<div>
+			<p class="section">Kebab (Tandoori) Specials</p>
 			<dl class="no-bullets">
 				<dt><b>Boti Kebab</b> <span class="price">$14.95</span></dt>
 				<dd>Cubes of lamb flavored with ginger and garlic cooked in the tandoor</dd>
@@ -148,27 +154,25 @@
 			</dl>
 		</div>
 	</div>
+
 	<div id="Thali" class="tab-pane fade">
-		<img src="~/Images/vegthali.png" alt="vegetarian Thali dinner" class="col-xs-4 rcorners1" />
-		<div class="col-xs-6" >
 		<h3>Thali Dishes</h3>
 
+		<p class="section">Thali Specials</p>
 		<p class="subsect">(Combination Dinner)</p>
 		<dl class="no-bullets">
 			<dt><b>Vegetarian Thali (Dine in Only)</b><span class="price">$15.95</span></dt>
 			<dd>Served with dal, saag paneer, vegetable korma, rice, naan and rice pudding</dd>
 
 			<dt><b>Non Vegetarian Thali (Dine in Only)</b><span class="price">$17.95</span></dt>
-			<dd>Served with tandoori chicken, lamb curry, dal, rice, naan, raita, and rice pudding</dd>
 		</dl>
+		<p>Served with tandoori chicken, lamb curry, dal, rice, naan, raita, and rice pudding</p>
 	</div>
-		</div>
+
 	<div id="Chicken" class="tab-pane fade">
-		<img src="~/Images/chickenKhorma.jpg" alt="chicken khorma" class="col-xs-4 rcorners1" />
+		<h3>Chicken Dishes</h3>
 
-		<div class="col-xs-6" >
-
-		<p class="section">Chicken Dishes</p>
+		<p class="section">Chicken Specials</p>
 		<p class="subsect">(All entrees are served with saffron basmati rice)</p>
 		<dl class="no-bullets">
 			<dt><b>Chicken Curry</b><span class="price">$10.95</span></dt>
@@ -191,12 +195,12 @@
 			<dd>Boneless breast of chicken cooked in pistachio nuts, yogurt, tomatoes and spices</dd>
 		</dl>
 	</div>
-		</div>
-	<div id="Lamb" class="tab-pane fade">
-		<img src="~/Images/lamb.png" alt="lamb vindaloo" class="col-xs-4 rcorners1" />
 
-		<div class="col-xs-6" >
-		<p class="section">Lamb Dishes</p>
+	<div id="Lamb" class="tab-pane fade">
+		<img src="images/lambvinsmall.png" />
+		<h3>Lamb Dishes</h3>
+
+		<p class="section">Lamb Specials</p>
 		<p class="subsect">(All entrees are served with saffron basmati rice)</p>
 		<dl class="no-bullets">
 			<dt><b>Lamb Curry</b><span class="price"></span></dt>
@@ -221,12 +225,11 @@
 			<dd>A Lamb delicacy in a mild brown sauce with mushrooms</dd>
 		</dl>
 	</div>
-		</div>
-	<div id="Seafood" class="tab-pane fade">
-		<img src="~/Images/closeUpPlaceSetting.JPG" alt="place setting" class="col-xs-4 rcorners1" />
-		<div class="col-xs-6" >
 
-		<p class="section">Seafood Dishes</p>
+	<div id="Seafood" class="tab-pane fade">
+		<h3>Seafood Dishes</h3>
+
+		<p class="section">SeaFood Specials</p>
 		<p class="subsect">(All entrees are served with saffron basmati rice)</p>
 		<dl class="no-bullets">
 			<dt><b>Fish Curry</b><span class="price">$13.95</span></dt>
@@ -249,12 +252,11 @@
 			<dd>Fish, shrimp, scallop and mussels cooked with very mild tomato and cream</dd>
 		</dl>
 	</div>
-		</div>
-	<div id="Biryani" class="tab-pane fade">
-		<img src="~/Images/biryani.jpg" alt="cashew biryani" class="col-xs-4 rcorners1" />
 
-		<div class="col-xs-6" >
-		<p class="section">Biryanis & Rice Dishes</p>
+	<div id="Biryani" class="tab-pane fade">
+		<h3>Biryanis & Rice Dishes</h3>
+
+		<p class="section">Biryanis, Rice Specials</p>
 		<p class="subsect">(All Biryanis served with Raita)</p>
 		<dl class="no-bullets">
 			<dt><b>Vegetable Biryani</b><span class="price">$10.95</span></dt>
@@ -274,136 +276,130 @@
 			<dt><b>Plain Basmati Rice</b><span class="price">$2.95</span></dt>
 		</dl>
 	</div>
-		</div>
-	<div id="Vegetarian" class="tab-pane fade">
-		<img src="~/Images/vegetarian.png" alt="vegetarian dish" class="col-xs-4 rcorners1" />
 
-		<div class="col-xs-6">
-			<p class="section">Vegetarian Dishes</p>
-			<p class="subsect">(All entrees are served with saffron basmati rice)</p>
-			<dl class="no-bullets">
-				<dt><b>Aloo Gobi Vegan</b><span class="price">$9.95</span></dt>
-				<dd>Mildly spiced potato and cauliflower</dd>
-				<dt><b>Aloo Matter Vegan</b><span class="price">$9.95</span></dt>
-				<dd>Green peas and Potatoes cooked in a thick curry sauce</dd>
-				<dt><b>Aloo Palak Vegan</b><span class="price">$9.95</span></dt>
-				<dd>Potatoes cooked with spinach in a special blend of spices</dd>
-				<dt><b>Aloo Chole Vegan</b><span class="price">$9.95</span></dt>
-				<dd>Chick peas with potatoes cooked</dd>
-				<dt><b>Baingan Bharta</b><span class="price">$10.95</span></dt>
-				<dd>Eggplant baked in an oven and finished with onion, ginger and tomatoes</dd>
-				<dt><b>Baigan Masala Vegan</b><span class="price">$10.95</span></dt>
-				<dd>Small eggplant stuffed with chef special spices</dd>
-				<dt><b>Bhindi Masala Vegan</b><span class="price">$10.95</span></dt>
-				<dd>Fresh okra sauteed with onions and spices</dd>
-				<dt><b>Chana Masala Vegan</b><span class="price">$9.95</span></dt>
-				<dd>Chick peas cooked in a spicy thick gravy topped with chopped onions, tomato and cilantro</dd>
-				<dt><b>Dal Makhani</b><span class="price">$8.95</span></dt>
-				<dd>A mix of lentils with kidney beans, flavored with ginger and cilantro</dd>
-				<dt><b>Dal Saag Vegan</b><span class="price">$10.95</span></dt>
-				<dd>Chick peas lentil with spinach cooked in special blend of Indian spices</dd>
-				<dt><b>Mattar Paneer</b><span class="price">$10.95</span></dt>
-				<dd>A Chef's original vegetarian delight of peas and mushrooms cooked in a mild and rich gravy</dd>
-				<dt><b>Malai Kofta</b><span class="price">$10.95</span></dt>
-				<dd>Vegetable dumpling in a mild creamy sauce with nuts and raisins</dd>
-				<dt><b>Navrattan Korma</b><span class="price">$10.95</span></dt>
-				<dd>Nine vegetables cooked with nine spices, nuts and cream sauce</dd>
-				<dt><b>Saag Paneer</b><span class="price">$10.95</span></dt>
-				<dd>A delicious combination of homemade cheese and spinach</dd>
-				<dt><b>Shashi Mughlai Paneer</b><span class="price">$11.95</span></dt>
-				<dd>Homemade cheese simmered in a tangy tomato sauce with nuts and raisins</dd>
-				<dt><b>Vegetable Patia Vegan</b><span class="price">$10.95</span></dt>
-				<dd>Mixed Vegetables cooked in mango and blend of Indian spices</dd>
-			</dl>
-		</div>
+	<div id="Vegetarian" class="tab-pane fade">
+		<h3>Vegetarian Dishes</h3>
+
+		<p class="section">Vegetarian Specials</p>
+		<p class="subsect">(All entrees are served with saffron basmati rice)</p>
+		<dl class="no-bullets">
+			<dt><b>Aloo Gobi Vegan</b><span class="price">$9.95</span></dt>
+			<dd>Mildly spiced potato and cauliflower</dd>
+			<dt><b>Aloo Matter Vegan</b><span class="price">$9.95</span></dt>
+			<dd>Green peas and Potatoes cooked in a thick curry sauce</dd>
+			<dt><b>Aloo Palak Vegan</b><span class="price">$9.95</span></dt>
+			<dd>Potatoes cooked with spinach in a special blend of spices</dd>
+			<dt><b>Aloo Chole Vegan</b><span class="price">$9.95</span></dt>
+			<dd>Chick peas with potatoes cooked</dd>
+			<dt><b>Baingan Bharta</b><span class="price">$10.95</span></dt>
+			<dd>Eggplant baked in an oven and finished with onion, ginger and tomatoes</dd>
+			<dt><b>Baigan Masala Vegan</b><span class="price">$10.95</span></dt>
+			<dd>Small eggplant stuffed with chef special spices</dd>
+			<dt><b>Bhindi Masala Vegan</b><span class="price">$10.95</span></dt>
+			<dd>Fresh okra sauteed with onions and spices</dd>
+			<dt><b>Chana masala Vegan</b><span class="price">$9.95</span></dt>
+			<dd>Chick peas cooked in a spicy thick gravy topped with chopped onions, tomato and cilantro</dd>
+			<dt><b>Dal Makhani</b><span class="price">$8.95</span></dt>
+			<dd>A mix of lentils with kidney beans, flavored with ginger and cilantro</dd>
+			<dt><b>Dal Saag Vegan</b><span class="price">$10.95</span></dt>
+			<dd>Chick peas lentil with spinach cooked in special blend of Indian spices</dd>
+			<dt><b>Mattar Paneer</b><span class="price">$10.95</span></dt>
+			<dd>A Chef's original vegetarian delight of peas and mushrooms cooked in a mild and rich gravy</dd>
+			<dt><b>Malai Kofta</b><span class="price">$10.95</span></dt>
+			<dd>Vegetable dumpling in a mild creamy sauce with nuts and raisins</dd>
+			<dt><b>Navrattan Korma</b><span class="price">$10.95</span></dt>
+			<dd>Nine vegetables cooked with nine spices, nuts and cream sauce</dd>
+			<dt><b>Saag Paneer</b><span class="price">$10.95</span></dt>
+			<dd>A delicious combination of homemade cheese and spinach</dd>
+			<dt><b>Shashi Mughlai Paneer</b><span class="price">$11.95</span></dt>
+			<dd>Homemade cheese simmered in a tangy tomato sauce with nuts and raisins</dd>
+			<dt><b>Vegetable Patia Vegan</b><span class="price">$10.95</span></dt>
+			<dd>Mixed Vegetables cooked in mango and blend of Indian spices</dd>
+		</dl>
 	</div>
 	<div id="ChefSpecials" class="tab-pane fade">
-		<img src="~/Images/general.jpg" alt="diners at Taste of India" class="col-xs-4 rcorners1" />
-		<div class="col-xs-6">
-			<h3>Chef's Specials</h3>
-			<dl class="no-bullets">
-				<dt><b>Chicken Madras</b><span class="price">$13.95</span></dt>
-				<dd>Boneless pieces of chicken cooked in a special chili sauce with blended spices and coconut</dd>
-				<dt><b>Karahi Chicken</b><span class="price">$13.95</span></dt>
-				<dd>Boneless chicken cooked with fresh onions, tomatoes, green peppers and other special Indian spices</dd>
-				<dt><b>Chicken Chili</b><span class="price">$13.95</span></dt>
-				<dd>Boneless chicken cooked with fresh diced onions, tomatoes, green pepper, green chili in soya sauce, Worcester sauce, ketchup and other special Indian spices</dd>
-				<dt><b>Lamb Madras</b><span class="price">$14.95</span></dt>
-				<dd>Boneless pieces of lamb cooked in a special chili sauce with blended spices and coconut</dd>
-				<dt><b>Karahi Lamb</b><span class="price">$14.95</span></dt>
-				<dd>Lamb cubes cooked with fresh tomatoes, onions, green peppers and special Indian spices</dd>
-				<dt><b>Karahi Paneer</b><span class="price">$12.95</span></dt>
-				<dd>Homemade cheese cooked in our special Indian style, spiced and sauteed with fresh tomato, onion and green pepper</dd>
-				<dt><b>Shrimp Madras</b><span class="price">$16.95</span></dt>
-				<dd>Shrimp cooked in a special chili sauce with blended spices and coconut</dd>
-				<dt><b>Karahi Shrimp</b><span class="price">$16.95</span></dt>
-				<dd>Shrimp cooked with fresh tomato, onions, green peppers and special Indian sauce</dd>
-				<dt><b>Paneer Chili</b><span class="price">$13.95</span></dt>
-				<dd>Homemade cheese cooked with fresh diced onions, tomatoes, green pepper, green chili in soya sauce, Worcester sauce, ketchup and other Indian spices</dd>
-				<dt><b>Paneer Tikka Masala</b><span class="price">$12.95</span></dt>
-				<dd>Homemade cheese cooked in tomatoes and cream sauce with fresh ginger and garlic</dd>
-				<dt><b>Mango Chicken</b><span class="price">$12.95</span></dt>
-				<dd>Boneless Chicken with fresh cooked onion, green pepper, tomatoes and herbs</dd>
-				<dt><b>Mango Lamb</b><span class="price">$13.95</span></dt>
-				<dd>Boneless lamb sauteed with fresh onion, green pepper, tomato and herbs</dd>
-			</dl>
-		</div>
+		<h3>Chef's Specials</h3>
+		<dl class="no-bullets">
+			<dt><b>Chicken Madras</b><span class="price">$13.95</span></dt>
+			<dd>Boneless pieces of chicken cooked in a special chili sauce with blended spices and coconut</dd>
+			<dt><b>Karahi Chicken</b><span class="price">$13.95</span></dt>
+			<dd>Boneless chicken cooked with fresh onions, tomatoes, green peppers and other special Indian spices</dd>
+			<dt><b>Chicken Chili</b><span class="price">$13.95</span></dt>
+			<dd>Boneless chicken cooked with fresh diced onions, tomatoes, green pepper, green chili in soya sauce, Worcester sauce, ketchup and other special Indian spices</dd>
+			<dt><b>Lamb Madras</b><span class="price">$14.95</span></dt>
+			<dd>Boneless pieces of lamb cooked in a special chili sauce with blended spices and coconut</dd>
+			<dt><b>Karahi Lamb</b><span class="price">$14.95</span></dt>
+			<dd>Lamb cubes cooked with fresh tomatoes, onions, green peppers and special Indian spices</dd>
+			<dt><b>Karahi Paneer</b><span class="price">$12.95</span></dt>
+			<dd>Homemade cheese cooked in our special Indian style, spiced and sauteed with fresh tomato, onion and green pepper</dd>
+			<dt><b>Shrimp Madras</b><span class="price">$16.95</span></dt>
+			<dd>Shrimp cooked in a special chili sauce with blended spices and coconut</dd>
+			<dt><b>Karahi Shrimp</b><span class="price">$16.95</span></dt>
+			<dd>Shrimp cooked with fresh tomato, onions, green peppers and special Indian sauce</dd>
+			<dt><b>Paneer Chili</b><span class="price">$13.95</span></dt>
+			<dd>Homemade cheese cooked with fresh diced onions, tomatoes, green pepper, green chili in soya sauce, Worcester sauce, ketchup and other Indian spices</dd>
+			<dt><b>Paneer Tikka Masala</b><span class="price">$12.95</span></dt>
+			<dd>Homemade cheese cooked in tomatoes and cream sauce with fresh ginger and garlic</dd>
+			<dt><b>Mango Chicken</b><span class="price">$12.95</span></dt>
+			<dd>Boneless Chicken with fresh cooked onion, green pepper, tomatoes and herbs</dd>
+			<dt><b>Mango Lamb</b><span class="price">$13.95</span></dt>
+			<dd>Boneless lamb sauteed with fresh onion, green pepper, tomato and herbs</dd>
+		</dl>
 	</div>
+
 	<div id="Breads" class="tab-pane fade">
-		<img src="~/Images/breads.png" alt="indian bread" class="col-xs-4 rcorners1" />
-		<div class="col-xs-6">
-			<h3>Indian Breads</h3>
+		<h3>Indian Breads</h3>
 
-			<dl class="no-bullets">
-				<dt><b>Naan</b><span class="price">$2.95</span></dt>
-				<dd>Unleavened handmade bread baked in a clay oven</dd>
-				<dt><b>Garlic Naan</b><span class="price">$3.95</span></dt>
-				<dd>Clay-oven baked bread stuffed with fresh garlic and green coriander</dd>
-				<dt><b>Aloo Naan</b><span class="price">$3.95</span></dt>
-				<dd>Leavened bread stuffed with potatoes mixed with herbs and spices baked in Tandoor oven</dd>
-				<dt><b>Basil Naan</b><span class="price">$3.95</span></dt>
-				<dd>Leavened bread stuffed with fresh basil and baked in the tandoor</dd>
-				<dt><b>Paneer Naan</b><span class="price">$3.95</span></dt>
-				<dd>Leavened bread stuffed with homemade cheese and herbs, baked in the tandoor</dd>
-				<dt><b>Peshawari Naan</b><span class="price">$4.95</span></dt>
-				<dd>Leavened bread stuffed with nuts, raisins and coconut, baked in Tandoor oven</dd>
-				<dt><b>Keema Naan</b><span class="price">$4.95</span></dt>
-				<dd>Clay oven bread stuffed with minced lamb with herbs and spices</dd>
-				<dt><b>Chicken Naan</b><span class="price">$4.95</span></dt>
-				<dd>Clay oven bread stuffed with chopped tandoori chicken with spices</dd>
-				<dt><b>Onion Kulcha</b><span class="price">$3.95</span></dt>
-				<dd>Clay oven baked bread stuffed with fresh onions, green coriander</dd>
-				<dt><b>Roti</b><span class="price">$2.95</span></dt>
-				<dd>Unleavened whole wheat bread baked in a clay oven</dd>
-				<dt><b>Poori</b><span class="price">$3.95</span></dt>
-				<dd>Unleavened deep fired puffed bread (Two pieces)</dd>
-				<dt><b>Plain Paratha</b><span class="price">$3.95</span></dt>
-				<dd>Unleavened multi-layered whole wheat bread</dd>
-				<dt><b>Aloo Paratha</b><span class="price">$4.95</span></dt>
-				<dd>Layered bread stuffed with potatoes and peas</dd>
-				<dt><b>Pudina Paratha</b><span class="price">$3.95</span></dt>
-				<dd>Buttered and layered whole wheat bread with dry mint</dd>
-				<dt><b>Combination Bread Basket</b><span class="price">$7.95</span></dt>
-				<dd>Garlic Naan, Plain Naan, and Roti</dd>
-			</dl>
-		</div>
+		<img id="naanPic" class="boxed" src="~/Images/garlic naan.jpg" />
+		<dl class="no-bullets">
+			<dt><b>Naan</b><span class="price">$2.95</span></dt>
+			<dd>Unleavened handmade bread baked in a clay oven</dd>
+			<dt><b>Garlic Naan</b><span class="price">$3.95</span></dt>
+			<dd>Clay-oven baked bread stuffed with fresh garlic and green coriander</dd>
+			<dt><b>Aloo Naan</b><span class="price">$3.95</span></dt>
+			<dd>Leavened bread stuffed with potatoes mixed with herbs and spices baked in Tandoor oven</dd>
+			<dt><b>Basil Naan</b><span class="price">$3.95</span></dt>
+			<dd>Leavened bread stuffed with fresh basil and baked in the tandoor</dd>
+			<dt><b>Paneer Naan</b><span class="price">$3.95</span></dt>
+			<dd>Leavened bread stuffed with homemade cheese and herbs, baked in the tandoor</dd>
+			<dt><b>Peshawari Naan</b><span class="price">$4.95</span></dt>
+			<dd>Leavened bread stuffed with nuts, raisins and coconut, baked in Tandoor oven</dd>
+			<dt><b>Keema Naan</b><span class="price">$4.95</span></dt>
+			<dd>Clay oven bread stuffed with minced lamb with herbs and spices</dd>
+			<dt><b>Chicken Naan</b><span class="price">$4.95</span></dt>
+			<dd>Clay oven bread stuffed with chopped tandoori chicken with spices</dd>
+			<dt><b>Onion Kulcha</b><span class="price">$3.95</span></dt>
+			<dd>Clay oven baked bread stuffed with fresh onions, green coriander</dd>
+			<dt><b>Roti</b><span class="price">$2.95</span></dt>
+			<dd>Unleavened whole wheat bread baked in a clay oven</dd>
+			<dt><b>Poori</b><span class="price">$3.95</span></dt>
+			<dd>Unleavened deep fired puffed bread (Two pieces)</dd>
+			<dt><b>Plain Paratha</b><span class="price">$3.95</span></dt>
+			<dd>Unleavened multi-layered whole wheat bread</dd>
+			<dt><b>Aloo Paratha</b><span class="price">$4.95</span></dt>
+			<dd>Layered bread stuffed with potatoes and peas</dd>
+			<dt><b>Pudina Paratha</b><span class="price">$3.95</span></dt>
+			<dd>Buttered and layered whole wheat bread with dry mint</dd>
+			<dt><b>Combination Bread Basket</b><span class="price">$7.95</span></dt>
+			<dd>Garlic Naan, Plain Naan, and Roti</dd>
+		</dl>
 	</div>
-	<div id="SideOrders" class="tab-pane fade row">
-		<img src="~/Images/Spring_onion_raitha.jpg" class="col-xs-4 rcorners1" />
-		<div class="col-xs-6">
-			<h3>Side Orders</h3>
-			<dl class="no-bullets">
 
-				<dd><b>Raita</b><span class="price">$2.95</span></dd>
-				<dd>Yogurt with cucumber sauce</dd>
-				<dd><b>Mix-Pickles</b><span class="price">$1.95</span></dd>
-				<dd><b>Mango Chutney</b><span class="price">$1.95</span></dd>
-			</dl>
-		</div>
+	<div id="SideOrders" class="tab-pane fade">
+		<h3>Side Orders</h3>
+		<dl class="no-bullets">
+
+			<dd><b>Raita</b><span class="price">$2.95</span></dd>
+			<dd>Yogurt with cucumber sauce</dd>
+			<dd><b>Mix-Pickles</b><span class="price">$1.95</span></dd>
+			<dd><b>Mango Chutney</b><span class="price">$1.95</span></dd>
+
+		</dl>
 	</div>
+
+
 	<div id="Desserts" class="tab-pane fade">
-		<img src="~/Images/chocolate kulfi.jpg" class="col-xs-4 rcorners1" />
-		<div class="col-xs-6" >
+		<p class="section">Desserts</p>
 		<dl class="no-bullets">
 			<dt><b>Gulab Jamun</b><span class="price">$2.95</span></dt>
 			<dd>Cheese ball dipped in syrup</dd>
@@ -415,10 +411,9 @@
 			<dt><b>Pistachio Ice Cream</b><span class="price">$3.95</span></dt>
 		</dl>
 	</div>
-		</div>
+
 	<div id="Beverages" class="tab-pane fade">
-		<img src="~/Images/chai.png" class="col-xs-4 rcorners1" />
-		<div class="col-xs-6" />
+		<h3>Beverages</h3>
 		<dl class="no-bullets">
 			<dt><b>Sweet or Salted Lassi</b><span class="price">$2.95</span></dt>
 			<dd>Cool refreshing and delicious yogurt drink</dd>
